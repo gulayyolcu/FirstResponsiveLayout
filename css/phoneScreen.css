@@ -1,0 +1,262 @@
+.container{
+    width:375px;
+    display:flex;
+    flex-direction:column;
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    padding:25px;
+}  
+
+header ul li a{
+    font-size:14px;  
+}
+
+header ul li:first-child,li:nth-child(2){
+    margin-right:20px;
+}
+.logo img{
+    width:83px;
+    height:auto;
+    margin:0px;
+}
+
+section{
+    padding-right:25px;
+    padding-left:25px;
+    display:flex;
+    flex-direction: column-reverse;
+    box-sizing: border-box;
+}
+section form{
+    display:flex;
+    flex-direction:column;
+}
+
+.textForm{
+    width:375px;
+    height:auto;
+    box-sizing: border-box;
+    padding-right:40px;
+}
+
+.textForm h2{
+    margin:0px;
+    font-size:24px;
+    line-height:30px;
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    color:hsl(243, 87%, 12%);
+   margin-bottom:30px;
+    
+}
+.textForm p{
+    font-size:14px;
+    line-height:20px;
+    margin-right:5px;
+    color:hsl(243, 87%, 12%);
+    margin-bottom:30px;
+    text-align: center;
+}
+
+  
+.folderImg{
+    width:375px;
+    height:auto;
+}
+
+.folderImg img{
+    width:310px;
+    height:auto;
+}
+
+.formText{
+    margin-bottom:20px;
+}
+
+.formSubmit{
+    text-align: center;
+    width:320px;
+    height:45px;
+}
+
+.sect1{
+    width:375px;
+    height:auto;
+    margin:0px;
+    padding:0px;
+}
+.backImg .bg{
+    width:375px;
+    height:35px;
+    src:url("images/bg-curve-mobile.svg");
+    
+    
+ 
+}
+.underImg{ 
+    width:375px;
+    height:auto;
+    display:flex;
+    flex-direction:column-reverse;
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+.underImgRight img{
+    width:375px;
+    height:auto;
+    margin:0px;
+    box-sizing: border-box;
+    
+}
+.underImgRight{
+    width:375px;
+    height:auto;
+    margin-bottom:30px;
+    background:#F9F8FE;
+}
+
+.underImgLeft{
+    display:flex;
+    flex-direction: column;
+    width:375px;
+    height:auto;
+    box-sizing: border-box;
+    padding:25px;
+}
+.underImgLeft h2{
+    margin:0px;
+    font-size:18px;
+    line-height:30px;
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    color:hsl(243, 87%, 12%);
+    margin-bottom:20px; 
+}
+
+.underImgLeft p{
+    font-size:12px;
+    line-height:20px;
+    color:hsl(243, 87%, 12%);
+    margin-bottom:20px;
+    text-align:left;
+    font-family: 'Raleway',sans-serif;
+}
+
+.underImgLeft a{
+    font-size:14px;
+    line-height:16px;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+.underImg .card{
+    width:325px;
+    height:215px;
+    padding:25px;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    box-shadow:2px 2px 10px 2px rgba(0,0,0,0.40);
+    border-radius: 5px;
+    color:#000;   
+}
+
+.sect2{
+    width:375px;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:25px;
+    box-sizing: border-box;
+}
+
+.sect2Left h2{
+    width:375px;
+    height:auto;
+    padding:25px;
+    box-sizing: border-box;
+    font-size:18px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    color:#fff;
+    text-align: center;
+
+}
+.sect2Left p{
+    width:300px;
+    height:auto;
+    font-size:14px;
+    line-height:20px;
+    color:#fff;
+    margin-bottom:15px;
+    text-align:center;
+    font-family: 'Raleway',sans-serif;
+ 
+}
+.sect2Left {
+    width:375px;
+    height:auto;
+    padding:25px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sect2Right {
+    width:375px;
+    height:auto;
+    display:flex;
+    align-items: center;
+    padding:25px;
+}
+
+.sect2Right .emailInput{
+    width:240px;
+    height:35px;
+    box-sizing: border-box;
+    padding:25px;
+    font-size:14px;
+}
+
+.sect2Right .button{
+    width:240px;
+    height:40px;
+    box-sizing: border-box; 
+    font-size: 14px; 
+}
+.contact{
+    width:375px;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    padding:25px;
+}
+.contactLeft .logo1,.contactPhone{
+    margin-bottom:20px;
+}
+.menu2,.menu{
+    font-size:14px;
+    margin-top:30px;
+}
+.contactRight{
+    margin-top:30px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+
+footer{
+    width:375px;
+    height:auto;
+}
